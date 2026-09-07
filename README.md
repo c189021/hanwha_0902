@@ -13,7 +13,7 @@
 | [`ex0902`](ex0902) | 09/02 | 파이썬 기본 문법 · 가상환경(venv) 세팅 · VSCode 익스텐션 가이드 | [ex0902/README.md](ex0902/README.md) |
 | [`ex0903`](ex0903) | 09/03 | 파이썬 문법 · Streamlit 가이드 · Matplotlib | [ex0903/README.md](ex0903/README.md) |
 | [`ex_git_0904`](ex_git_0904) | 09/04 | 파이썬 문법 · NumPy · Streamlit(Altair) · Git/GitHub 가이드 · GitHub Desktop 가이드 | [ex_git_0904/README.md](ex_git_0904/README.md) |
-| [`ex0907`](ex0907) | 09/07 | Git/GitHub 가이드 · Pydantic (데이터 검증/타입 변환, 기본값·Optional·중첩 모델, API 요청 검증·변환) | [ex0907/README.md](ex0907/README.md) |
+| [`ex0907`](ex0907) | 09/07 | Git/GitHub 가이드 · Pydantic (데이터 검증/타입 변환, 기본값·Optional·중첩 모델, API 요청 검증·변환) · NumPy (배열/연산 기초, 통계·집계, 데이터 전처리 파이프라인) | [ex0907/README.md](ex0907/README.md) |
 
 > `ex_git_0904`는 원래 Git 실습을 위해 별도 레포지토리로 만들었던 폴더라 이름에 `git`이 붙어 있습니다. 지금은 이 레포로 합쳐서 관리합니다.
 
