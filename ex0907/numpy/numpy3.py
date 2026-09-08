@@ -1,6 +1,6 @@
 """
 NumPy 예시 3 - 응용: 데이터 전처리 파이프라인 (원본 데이터 -> 정제 -> 정규화 -> 요약)
-실행: pip install numpy  (설치 후) -> python numpy3.py
+실행: pip install numpy  (설치 후) -> ex0907 폴더에서 python numpy/numpy3.py
 """
 
 import numpy as np

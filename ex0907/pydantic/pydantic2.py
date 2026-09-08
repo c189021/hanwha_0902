@@ -1,6 +1,6 @@
 """
 Pydantic 예시 2 - 실전: 기본값, Optional, 중첩 모델
-실행: pip install pydantic  (설치 후) -> python pydantic2.py
+실행: pip install pydantic  (설치 후) -> ex0907 폴더에서 python pydantic/pydantic2.py
 """
 
 from typing import Optional

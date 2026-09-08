@@ -1,6 +1,6 @@
 """
 Pydantic 예시 1 - 기본: 데이터 검증과 타입 변환
-실행: pip install pydantic  (설치 후) -> python pydantic1.py
+실행: pip install pydantic  (설치 후) -> ex0907 폴더에서 python pydantic/pydantic1.py
 """
 
 from pydantic import BaseModel, ValidationError

@@ -1,6 +1,6 @@
 """
 NumPy 예시 2 - 실전: 배열 조작과 통계/집계 함수
-실행: pip install numpy  (설치 후) -> python numpy2.py
+실행: pip install numpy  (설치 후) -> ex0907 폴더에서 python numpy/numpy2.py
 """
 
 import numpy as np

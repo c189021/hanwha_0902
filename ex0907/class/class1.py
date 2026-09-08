@@ -1,6 +1,6 @@
 """
 클래스(Class) 예시 1 - 기본: 클래스 정의와 인스턴스
-실행: python class1.py
+실행: ex0907 폴더에서 python class/class1.py
 """
 
 
