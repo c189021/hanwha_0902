@@ -1,6 +1,6 @@
 """
 클래스(Class) 예시 2 - 실전: 상속, 다형성, 캡슐화
-실행: python class2.py
+실행: ex0907 폴더에서 python class/class2.py
 """
 
 

@@ -1,6 +1,6 @@
 """
 Pydantic 예시 3 - API 요청 -> 검증 -> 데이터 변환
-실행: pip install pydantic email-validator  (설치 후) -> python pydantic3.py
+실행: pip install pydantic email-validator  (설치 후) -> ex0907 폴더에서 python pydantic/pydantic3.py
 (EmailStr 타입을 쓰려면 email-validator 패키지가 추가로 필요합니다)
 """
 

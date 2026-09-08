@@ -1,7 +1,7 @@
 """
 클래스(Class) 예시 3 - 응용: 특수 메서드(dunder)를 활용한 실전 객체 설계
 (원본 데이터 -> 객체 변환 -> 정렬/필터링 -> 요약)
-실행: python class3.py
+실행: ex0907 폴더에서 python class/class3.py
 """
 
 

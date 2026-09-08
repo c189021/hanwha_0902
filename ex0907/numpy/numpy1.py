@@ -1,6 +1,6 @@
 """
 NumPy 예시 1 - 기본: 배열 생성과 기본 연산
-실행: pip install numpy  (설치 후) -> python numpy1.py
+실행: pip install numpy  (설치 후) -> ex0907 폴더에서 python numpy/numpy1.py
 """
 
 import numpy as np
