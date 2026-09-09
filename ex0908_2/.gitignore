@@ -130,10 +130,6 @@ celerybeat.pid
 # Environments
 .env
 .venv
-.firstenv
-.firstvenv
-.secondvenv
-.thirdenv
 .fastvenv
 .fast2venv
 .*venv/
@@ -143,7 +139,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# VSCode (로컬 에디터/파이썬 환경 설정 - 로컬마다 다름)
+# VSCode (로컬 에디터/파이썬 환경 설정)
 .vscode/
 
 # Spyder project settings
