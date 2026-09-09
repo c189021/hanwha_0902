@@ -15,10 +15,9 @@
 | [`ex_git_0904`](ex_git_0904) | 09/04 | 파이썬 문법 · NumPy · Streamlit(Altair) · Git/GitHub 가이드 · GitHub Desktop 가이드 | [ex_git_0904/README.md](ex_git_0904/README.md) |
 | [`ex0907`](ex0907) | 09/07 | Git/GitHub 가이드 · Pydantic (데이터 검증/타입 변환, 기본값·Optional·중첩 모델, API 요청 검증·변환) · NumPy (배열/연산 기초, 통계·집계, 데이터 전처리 파이프라인) · 클래스(OOP) (클래스/인스턴스 기초, 상속·다형성·캡슐화, 특수 메서드 활용) | [ex0907/README.md](ex0907/README.md) |
 | [`ex0908`](ex0908) | 09/08 | FastAPI (설치·서버 실행(`fastapi dev` / `uvicorn --reload`)·Swagger UI, 동시성과 async/await, 경로 매개변수(타입·순서·Enum), 쿼리 매개변수(기본값·Optional), 요청 본문(Pydantic `BaseModel`)) | [ex0908/README.md](ex0908/README.md) |
+| [`ex0909`](ex0909) | 09/09 | FastAPI CRUD REST API (REST/CRUD ↔ HTTP 메서드, 경로 매개변수, 요청 본문 Pydantic 검증(특히 `PUT`), `HTTPException`·상태 코드(201/404/422), 메모리 `dict` DB 패턴) | [ex0909/README.md](ex0909/README.md) |
 
 > `ex_git_0904`는 원래 Git 실습을 위해 별도 레포지토리로 만들었던 폴더라 이름에 `git`이 붙어 있습니다. 지금은 이 레포로 합쳐서 관리합니다.
->
-> `ex0908_2`는 `ex0908`에 이어지는 FastAPI 실습용 작업 폴더입니다. (아직 내용 없음)
 
 ---
 
