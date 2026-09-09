@@ -14,8 +14,11 @@
 | [`ex0903`](ex0903) | 09/03 | 파이썬 문법 · Streamlit 가이드 · Matplotlib | [ex0903/README.md](ex0903/README.md) |
 | [`ex_git_0904`](ex_git_0904) | 09/04 | 파이썬 문법 · NumPy · Streamlit(Altair) · Git/GitHub 가이드 · GitHub Desktop 가이드 | [ex_git_0904/README.md](ex_git_0904/README.md) |
 | [`ex0907`](ex0907) | 09/07 | Git/GitHub 가이드 · Pydantic (데이터 검증/타입 변환, 기본값·Optional·중첩 모델, API 요청 검증·변환) · NumPy (배열/연산 기초, 통계·집계, 데이터 전처리 파이프라인) · 클래스(OOP) (클래스/인스턴스 기초, 상속·다형성·캡슐화, 특수 메서드 활용) | [ex0907/README.md](ex0907/README.md) |
+| [`ex0908`](ex0908) | 09/08 | FastAPI (설치·서버 실행(`fastapi dev` / `uvicorn --reload`)·Swagger UI, 동시성과 async/await, 경로 매개변수(타입·순서·Enum), 쿼리 매개변수(기본값·Optional), 요청 본문(Pydantic `BaseModel`)) | [ex0908/README.md](ex0908/README.md) |
 
 > `ex_git_0904`는 원래 Git 실습을 위해 별도 레포지토리로 만들었던 폴더라 이름에 `git`이 붙어 있습니다. 지금은 이 레포로 합쳐서 관리합니다.
+>
+> `ex0908_2`는 `ex0908`에 이어지는 FastAPI 실습용 작업 폴더입니다. (아직 내용 없음)
 
 ---
 
@@ -23,8 +26,8 @@
 
 - **Python 3.12**
 - **에디터**: VSCode
-- 폴더마다 **가상환경을 따로** 생성해서 사용합니다. (`.firstvenv`, `.secondvenv`, `.thirdenv` …)
-- 가상환경 폴더와 `__pycache__`, `*.pyc` 등은 `.gitignore`에 등록되어 **커밋되지 않습니다.** 코드를 받은 뒤 각자 로컬에서 가상환경을 새로 만들어 패키지를 설치하세요.
+- 폴더마다 **가상환경을 따로** 생성해서 사용합니다. (`.firstvenv`, `.secondvenv`, `.thirdenv`, `.fastvenv` …)
+- 가상환경 폴더와 `__pycache__`, `*.pyc`, `.vscode/` 등은 `.gitignore`에 등록되어 **커밋되지 않습니다.** 코드를 받은 뒤 각자 로컬에서 가상환경을 새로 만들어 패키지를 설치하세요.
 
 ## 실행 방법 (공통)
 
