@@ -17,6 +17,7 @@
 | [`ex0908`](ex0908) | 09/08 | FastAPI (설치·서버 실행(`fastapi dev` / `uvicorn --reload`)·Swagger UI, 동시성과 async/await, 경로 매개변수(타입·순서·Enum), 쿼리 매개변수(기본값·Optional), 요청 본문(Pydantic `BaseModel`)) | [ex0908/README.md](ex0908/README.md) |
 | [`ex0909`](ex0909) | 09/09 | FastAPI CRUD REST API (REST/CRUD ↔ HTTP 메서드, 경로 매개변수, 요청 본문 Pydantic 검증(특히 `PUT`), `HTTPException`·상태 코드(201/404/422), 메모리 `dict` DB 패턴) | [ex0909/README.md](ex0909/README.md) |
 | [`ex0910`](ex0910) | 09/10 | 파이썬 문법 (딕셔너리 타입 적용 `dict[str, int]`·`TypedDict`, 제어문 `if`·삼항 연산자, `lambda`, `match`/`case`(`case _`·타입별 분기), 반복문 `while`·`break`/`continue`) · **FastAPI ↔ Streamlit 연동** (백엔드/프론트 서버를 각각 띄워 HTTP(JSON)로 통신, `requests` 로 호출, `ConnectionError` 처리) | [ex0910/README.md](ex0910/README.md) |
+| [`ex0911`](ex0911) | 09/11 | OpenAI API 키 발급·연결 (Colab Secrets 포함), API 키를 읽는 3가지 방법(하드코딩 금지 vs `.env`+`python-dotenv` vs OS 전역 환경변수) 비교, `pip freeze > requirements.txt`, **LangChain 개념**과 `ChatOpenAI` 예제 | [ex0911/README.md](ex0911/README.md) |
 
 > `ex_git_0904`는 원래 Git 실습을 위해 별도 레포지토리로 만들었던 폴더라 이름에 `git`이 붙어 있습니다. 지금은 이 레포로 합쳐서 관리합니다.
 
