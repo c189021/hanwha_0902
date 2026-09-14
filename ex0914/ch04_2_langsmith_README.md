@@ -68,9 +68,6 @@ print(response.content)
 
 ![LangSmith 트레이싱 확인 화면](langsmith_trace_check.png)
 
-> 위 이미지 파일(`langsmith_trace_check.png`)은 이 폴더에 아직 추가되지 않았습니다.
-> 스크린샷 파일을 `ex0914/langsmith_trace_check.png` 경로에 저장하면 이 README에 정상적으로 표시됩니다.
-
 ## 4. `langchain_teddynote`로 프로젝트 단위 추적 켜고 끄기
 
 `.env`의 `LANGSMITH_TRACING` 값을 직접 수정하지 않고도, 코드에서 특정 프로젝트로 추적을
