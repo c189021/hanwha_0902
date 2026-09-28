@@ -17,9 +17,24 @@
 | [`ex0908`](ex0908) | 09/08 | FastAPI (설치·서버 실행(`fastapi dev` / `uvicorn --reload`)·Swagger UI, 동시성과 async/await, 경로 매개변수(타입·순서·Enum), 쿼리 매개변수(기본값·Optional), 요청 본문(Pydantic `BaseModel`)) | [ex0908/README.md](ex0908/README.md) |
 | [`ex0909`](ex0909) | 09/09 | FastAPI CRUD REST API (REST/CRUD ↔ HTTP 메서드, 경로 매개변수, 요청 본문 Pydantic 검증(특히 `PUT`), `HTTPException`·상태 코드(201/404/422), 메모리 `dict` DB 패턴) | [ex0909/README.md](ex0909/README.md) |
 | [`ex0910`](ex0910) | 09/10 | 파이썬 문법 (딕셔너리 타입 적용 `dict[str, int]`·`TypedDict`, 제어문 `if`·삼항 연산자, `lambda`, `match`/`case`(`case _`·타입별 분기), 반복문 `while`·`break`/`continue`) · **FastAPI ↔ Streamlit 연동** (백엔드/프론트 서버를 각각 띄워 HTTP(JSON)로 통신, `requests` 로 호출, `ConnectionError` 처리) | [ex0910/README.md](ex0910/README.md) |
+| [`ex0909_2`](ex0909_2) | 09/09 | FastAPI CRUD 추가 실습 (`items` 리소스 Create/Read/Update/Delete, `HTTPException` 처리) | [ex0909_2/README.md](ex0909_2/README.md) |
 | [`ex0911`](ex0911) | 09/11 | OpenAI API 키 발급·연결 (Colab Secrets 포함), API 키를 읽는 3가지 방법(하드코딩 금지 vs `.env`+`python-dotenv` vs OS 전역 환경변수) 비교, `pip freeze > requirements.txt`, **LangChain 개념**과 `ChatOpenAI` 예제 | [ex0911/README.md](ex0911/README.md) |
+| [`ex0914`](ex0914) | 09/14 | LangChain ch03~ch04: Runnable, LCEL, 출력 파서, 실행 메서드(run methods), 멀티모달, 로깅, LangSmith 트레이싱 | 노트북별 `*_README.md` |
+| [`ex0915`](ex0915) | 09/15 | LangChain ch05 Prompt: `PromptTemplate`, Partial Variables, YAML 프롬프트, `ChatPromptTemplate`, `MessagesPlaceholder`, FewShot 프롬프트/`ExampleSelector`, LangChain Hub | 노트북별 `*_README.md` |
+| [`ex0916`](ex0916) | 09/16 | LangChain ch06 출력 파서: `PydanticOutputParser`, StructuredOutput/CommaSeparatedList, JSON Dict, PandasDataFrame, Datetime/Enum 파서 | 노트북별 `*_README.md` |
+| [`ex0917`](ex0917) | 09/17 | LangChain ch07: LLM 응답 캐싱, 체인 직렬화/역직렬화, HuggingFace 엔드포인트 사용 | [README_ch07_01~03.md](ex0917) |
+| [`ex0918`](ex0918) | 09/18 | LangChain ch08 Memory: `ConversationBufferMemory`, 다양한 메모리 타입, Summary+VectorStore 메모리, `RunnableWithMessageHistory`(SQLite 연동) | [README_ch08_01~04.md](ex0918) |
+| [`ex0921`](ex0921) | 09/21 | LangChain ch09 문서 로더: 문서 로더 구조, PDF/HWP/CSV/Web 로더, 텍스트 스플리터 | [README_ch09_01~06.md](ex0921) |
+| [`ex0922`](ex0922) | 09/22 | LangChain ch11~ch12: OpenAI/HuggingFace·Upstage/Ollama 임베딩, 임베딩 캐싱, Pinecone 벡터스토어 | [ex0922/README.md](ex0922/README.md) |
+| [`ex0923`](ex0923) | 09/23 | LangChain ch13 Retriever: 기본 Retriever, `EnsembleRetriever`, Long Context Reorder, `ParentDocumentRetriever` | [ex0923/README.md](ex0923/README.md) |
+| [`ex0928`](ex0928) | 09/28 | RAG 실습: 사내 업무 가이드 PDF 기반 RAG 챗봇 (LangChain + OpenAI + FAISS, 근거 페이지 표시) | [ex0928/README.md](ex0928/README.md) |
+| [`rag_one`](rag_one) | - | `ex0922`(임베딩/벡터스토어)·`ex0923`(Retriever) 실습 원본 (노트북별 README 포함, 위 `ex0922`/`ex0923` 폴더의 기준 버전) | [rag_one/README.md](rag_one/README.md) |
+| [`rag_one_2`](rag_one_2) | - | `rag_two` RAG 실습 프로젝트 | [rag_one_2/README.md](rag_one_2/README.md) |
+| [`rag_src`](rag_src) | - | RAGAS 평가 실습 소스 (기본 실습 1~3, RAGAS 튜토리얼) | [rag_src/README.md](rag_src/README.md) |
+| [`rag_two_branch`](rag_two_branch) | - | RAGAS v0.3 → v0.4 마이그레이션 실습 브랜치 | [rag_two_branch/README.md](rag_two_branch/README.md) |
 
 > `ex_git_0904`는 원래 Git 실습을 위해 별도 레포지토리로 만들었던 폴더라 이름에 `git`이 붙어 있습니다. 지금은 이 레포로 합쳐서 관리합니다.
+> `ex0910`은 `python_basics`(문법) · `proj_fastapi`(백엔드) · `proj_streamlit`(프론트) 세 파트로 구성되어 있으며, 이후 FastAPI/Streamlit 연동 실습이 추가로 반영되었습니다.
 
 ---
 
