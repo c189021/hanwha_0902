@@ -1,0 +1,33 @@
+[project]
+name = "ex0929"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SeoungjinPark", email = "sjjw1111@naver.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+    "grandalf>=0.8",
+    "langchain>=1.4.3",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.6",
+    "langchain-teddynote>=0.5.4",
+    "langchain-upstage>=0.7.7",
+    "langchainhub>=0.1.21",
+    "matplotlib>=3.11.2",
+    "mysql-connector-python>=26.7.0",
+    "pymupdf>=1.28.2",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+ex0929 = "ex0929:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
