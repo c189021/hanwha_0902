@@ -1,0 +1,23 @@
+[project]
+name = "ex1001"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SeoungjinPark", email = "sjjw1111@naver.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "grandalf>=0.8",
+    "langchain-openai>=1.6.7",
+    "langgraph>=1.2.12",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+ex1001 = "ex1001:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
